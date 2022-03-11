@@ -9,5 +9,9 @@
   "private": false,
   "dependencies": {
     "@russia-sanctions/base": "0.0.3"
+  },
+  "scripts": {
+    "pkg": "7z a archive.zip index.js node_modules",
+    "deploy": "aws lambda --region=us-east-1 update-function-code --zip-file fileb://archive.zip --function-name"
   }
 }
