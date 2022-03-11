@@ -1,0 +1,13 @@
+{
+  "name": "@russia-sanctions/cloudfront",
+  "version": "0.0.1",
+  "description": "Sanction Traffic From Russian and Belarusian IP addresses using CloudFront",
+  "main": "index.js",
+  "repository": "https://github.com/Russia-Sanctions/CloudFront",
+  "author": "Emily Shepherd <emily@redcoat.dev>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@russia-sanctions/base": "0.0.3"
+  }
+}
